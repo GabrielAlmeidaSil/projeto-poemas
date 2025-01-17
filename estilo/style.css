@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+:root{
+    --cor01: #556B2F;
+    --cor02: #8B4513;
+    --cor03: #C0D9AF;
+    --cor04: #87CEEB;
+    --cor05: #A9A9A9;
+
+
+    --fonte-especial: "Cinzel", serif;
+    --fonte-padrao: "Roboto Mono", serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    min-height: 100vh;
+    background-color: var(--cor05);
+}
+
+
+header{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    font-family: var(--fonte-especial);
+    text-align: center;
+    padding: 50px;
+    text-shadow: 1px 1px 2px #000000f5;
+    font-variant: small-caps;
+}
+
+
+header h1{
+    font-size: 8vw;
+}
+
+
+header p{
+    font-size: 1.4em;
+}
+
+
+section{
+    padding: 70px 30px;
+    background-color: #fff;
+    font-family: var(--fonte-padrao);
+    font-size: 2.5vw;
+    line-height: 2em;
+}
+
+
+section.imagem{
+    color: #fff;
+    background-position: center center;
+    background-color: var(--cor03);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+}
+
+
+
+
+#img01{
+    background-image: url(../imagens/floresta.jpg);
+}
+
+
+#img02{
+    background-image: url(../imagens/lua.jpg);
+}
+
+
+#img03{
+    background-image: url(../imagens/oceano.jpg);
+}
+
+
+footer{
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+    color: var(--cor03);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+footer p > a, abbr{
+    text-decoration: underline;
+    color: #fff;
+}
