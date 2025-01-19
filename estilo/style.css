@@ -66,6 +66,7 @@ section.imagem{
     color: #fff;
     background-position: center center;
     background-color: var(--cor03);
+    background-attachment: fixed;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
 }
@@ -94,13 +95,12 @@ footer{
     color: var(--cor03);
     padding: 10px;
     text-align: center;
-    font-weight: bold;
     color: #fff;
-    font-size: 1.2em;
 }
 
 
 footer p > a, abbr{
     text-decoration: underline;
+    font-weight: bold;
     color: #fff;
 }
